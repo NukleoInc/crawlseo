@@ -110,6 +110,7 @@ Copy `.env.example` to `.env.local` and update:
 | APP_SECRET | Yes | NextAuth secret (use `openssl rand -hex 32`) |
 | GOOGLE_CLIENT_ID | Yes | Google OAuth client ID |
 | GOOGLE_CLIENT_SECRET | Yes | Google OAuth client secret |
+| ALLOWED_EMAIL_DOMAINS | Yes | Comma-separated exact email domains allowed to sign in; missing or empty denies all sign-ins |
 | NEXTAUTH_URL | No | NextAuth URL (auto-detected in dev) |
 
 ## Google OAuth Setup
